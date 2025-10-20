@@ -1,0 +1,129 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    border: 2px inset black;
+
+    background: linear-gradient(to right, rgb(255,240,245), rgb(230,220,255));
+    background-attachment: fixed;
+    
+ 
+}
+h1 {
+   
+    color:rgb(114, 139, 216);
+    margin:0;
+    padding: 10px 0px;
+ 
+
+}
+
+
+header{
+    background-color: rgb(231, 125, 160);
+    position: sticky;
+    top:0;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: ridge black;
+    z-index: 100;
+    
+
+
+ 
+}
+
+nav{
+
+    background-color:rgb(245, 181, 202);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 70px;
+    z-index: 99;
+}
+
+nav ul{
+list-style-type: none;
+display:flex ;
+ justify-content: center;
+ gap: 30px;
+ padding: 20px;
+ margin: 0;
+align-items: center;
+
+  
+ 
+  
+}
+nav li{
+
+    padding:0px;
+ }
+
+ nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   padding: 8px 12px;
+   border-radius: 10px;
+   transition: all 0.3s ease;
+ }
+
+ nav a:hover {
+    background-color: fuchsia;
+    color: white;
+    transform: scale(1.1);
+}
+
+main{
+    max-width: 900px;
+    margin: 120px auto 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); /* ✅ cor diferente do fundo */
+    border: 2px solid rgb(231, 125, 160);
+    border-radius: 20px; /* ✅ cantos arredondados */
+    padding: 20px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 6px 6px 15px rgba(0,0,0,0.3);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(231, 125, 160);
+    color: black;
+    padding: 15px;
+    border-top: 2px solid black;
+}
+
+
+.social-links a {
+    text-decoration: none;
+    color: rgb(114, 139, 216);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: fuchsia;
+}
