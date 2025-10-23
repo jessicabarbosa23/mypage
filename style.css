@@ -131,6 +131,7 @@ footer {
 .links:hover{
     transform: translate(-5px);
 }
+
 .social-links a:hover {
     color: fuchsia;
 }
