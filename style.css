@@ -115,15 +115,22 @@ footer {
     padding: 15px;
     border-top: 2px solid black;
 }
-
+.social-links{
+   display: flex;
+  justify-content: center;
+}
 
 .social-links a {
     text-decoration: none;
     color: rgb(114, 139, 216);
     font-weight: bold;
     transition: color 0.3s;
+    gap: 15px;
+    padding: 0px 10px;
 }
-
+.links:hover{
+    transform: translate(-5px);
+}
 .social-links a:hover {
     color: fuchsia;
 }
